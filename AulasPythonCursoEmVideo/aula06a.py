@@ -11,4 +11,3 @@ print('O soma entre {0} e {1} deu: {2}'.format(n1, n2, soma))
 
 
 
-
