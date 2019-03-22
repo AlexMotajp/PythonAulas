@@ -8,15 +8,7 @@ aluno2 = input('Insira seu nome: ')
 aluno3 = input('Insira seu nome: ')
 aluno4 = input('Insira seu nome: ')
 
-varRandom = random.randint(1,4)
+randomVar = random.choice([aluno1, aluno2, aluno3, aluno4])
 
-print(varRandom)
+print('O escolhido foi: {}'.format(randomVar))
 
-if varRandom == 1:
-    print('O escolhido foi você: {}'.format(aluno1))
-elif varRandom == 2:
-    print('O escolhido foi você: {}'.format(aluno2))
-if varRandom == 3:
-    print('O escolhido foi você: {}'.format(aluno3))
-elif varRandom == 4:
-    print('O escolhido foi você: {}'.format(aluno4))

@@ -9,7 +9,7 @@ catetoAd = float(input('Digite o cateto Adjacente: '))
 
 hipotenusa = sqrt(pow(catetoOp, 2) + pow(catetoAd, 2))
 
-print('O comprimento da hipotenusa é: {}'.format(hipotenusa))
+print('O comprimento da hipotenusa é: {:.2f}'.format(hipotenusa))
 
 
 
