@@ -20,6 +20,8 @@ print(varTexto.count('o',0,13))
 
 print(varTexto.find('vídeo'))
 # Se for retornado -1, lembre-se que isso significa que a string não existe
+# pelo find, você consegue procurar pelo lado que você escolher tabém...
+# exemplo: rfind (pela direita) lfind (pela esquerda)
 
 # Transformando
 
