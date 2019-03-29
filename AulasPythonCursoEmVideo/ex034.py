@@ -6,6 +6,6 @@
 varSal = float(input('Insira seu salário aqui: '))
 
 if varSal > 1250:
-    print('Seu salário agora é: {}'.format(varSal * 1.10))
+    print('Seu salário agora é: R${:.2f}'.format(varSal * 1.10))
 else:
-    print('Seu salário agora é: {}'.format(varSal * 1.15))
+    print('Seu salário agora é: R${:.2f}'.format(varSal * 1.15))

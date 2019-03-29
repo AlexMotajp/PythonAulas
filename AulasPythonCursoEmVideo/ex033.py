@@ -4,7 +4,24 @@ num01 = int(input('Insira um número: '))
 num02 = int(input('Insira outro numero: '))
 num03 = int(input('Insira mais um: '))
 
-if (num01 > num02) and (num01 > num03):
-    print('O primeiro numero {} é o maior de todos'.format(num01))
-else:
-    print('O número {} mais baixo'.format(num01))
+menorValue = num01
+maiorValue = num01
+
+# Menor valor
+if num02 < num01 and num02 < num01:
+    menorValue = num02
+if num03 < num01 and num03 < num01:
+    menorValue = num03
+
+print('Esse é o manor valor: {}'.format(menorValue))
+
+# Maior vlaor
+if num02 > num01 and num02 > num01:
+    maiorValue = num02
+if num03 > num01 and num03 > num01:
+    maiorValue = num03
+
+print('Esse é o maior valor: {}'.format(maiorValue))
+
+
+
