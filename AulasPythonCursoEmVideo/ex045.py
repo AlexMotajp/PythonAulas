@@ -12,9 +12,17 @@ if suaPosicao == compPosicao:
     print('Você empatou. Você escolheu: {} e o Computador: {}'.format(suaPosicao, compPosicao))
 elif suaPosicao == 'Pedra':
     if compPosicao == 'Papel':
-        print('Você perdeu! Você Escolheu: {} e o Computador: {}'.format(suaPosicao, compPosicao))
+        print('Você Perdeu! Você Escolheu: {} e o Computador: {}'.format(suaPosicao, compPosicao))
     else:
-        print('Você Venceu! Você escolheu {} e o Computador: {}'.format(suaPosicao, compPosicao))
+        print('Você Venceu! Você escolheu: {} e o Computador: {}'.format(suaPosicao, compPosicao))
 elif suaPosicao == 'Papel':
-    if compPosicao ==
+    if compPosicao == 'Pedra':
+        print('Você Venceu! Você escolheu: {} e o Computador: {}'.format(suaPosicao, compPosicao))
+    else:
+        print('Você Perdeu! Você escolheu: {} e o Computador: {}'.format(suaPosicao, compPosicao))
+elif suaPosicao == 'Tesoura':
+    if compPosicao == 'Papel':
+        print('Você Venceu! Você escolheu: {} e o Computador: {}'.format(suaPosicao, compPosicao))
+    else:
+        print('Você Perdeu! Você escolheu: {} e o Computador: {}'.format(suaPosicao, compPosicao))
 
