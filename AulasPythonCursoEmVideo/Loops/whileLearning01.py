@@ -2,6 +2,7 @@
 # Calculadora simples
 
 # Functions
+
 def soma(a, b):
     return a + b
 

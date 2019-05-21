@@ -5,6 +5,8 @@ palaVar = palaVar.replace(' ','')
 
 palaInv = palaVar[::-1]
 
+print(palaInv)
+
 
 if palaVar.title() == palaInv.title():
     print('A palavra é um Palíndromo!'.format(palaVar.title()))

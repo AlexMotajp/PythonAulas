@@ -2,4 +2,4 @@
 
 raio = float(input('Digite um valor: '))
 
-print('A={}'.)
+print('A={}'.format())
